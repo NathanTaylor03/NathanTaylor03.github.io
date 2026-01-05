@@ -1,8 +1,8 @@
-import App from '../App.jsx';
-import AboutMe from '../pages/AboutMe';
-import Portfolio from '../pages/Portfolio';
-import Contact from '../pages/Contact';
-import Error from '../pages/Error';
+import App from './App.jsx';
+import AboutMe from './pages/AboutMe.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Contact from './pages/Contact.jsx';
+import Error from './pages/Error.jsx';
 
 const routes = [
     {
@@ -15,11 +15,11 @@ const routes = [
                 element: <AboutMe />
             },
             {
-                path: "/portfolio",
+                path: "portfolio",
                 element: <Portfolio />
             },
             {
-                path: "/Contact",
+                path: "Contact",
                 element: <Contact />
             },
             {
